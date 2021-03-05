@@ -1,0 +1,292 @@
+#header {
+  margin-top: 0px;
+  text-align: center;
+  background-color: #F0F3F4;
+  border-bottom: 1px solid silver;
+}
+.btwn1:hover,.btwnb:hover,.brq:hover,.btwnp:hover,.btwn2:hover,.shake:hover {
+  animation: shake 0.5s;
+}
+.abc1:hover{
+  opacity: 0.5;
+}
+@keyframes shake {
+  100% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+.navv{
+  width: 120px;
+}
+#navbar{
+  text-align: center;
+  border-bottom: 2px solid silver;
+}
+.nav1{
+  display: inline;
+}
+.nav2{
+  display: inline;
+  margin-left: -4px;
+}
+.nav2:hover{
+  content: url(image/nav8.png);
+  width: 120px;
+}
+.nav3{
+  display: inline;
+  margin-left: -4px;
+}
+.nav3:hover{
+  content: url(image/nav9.png);
+  width: 120px;
+}
+.nav4{
+  display: inline;
+  margin-left: -4px;
+}
+.nav4:hover{
+  content: url(image/nav10.png);
+  width: 120px;
+}
+.nav5{
+  display: inline;
+  margin-left: -4px;
+}
+.nav5:hover{
+  content: url(image/nav11.png);
+  width: 120px;
+}
+.nav6{
+  display: inline;
+  margin-left: -4px;
+}
+.nav6:hover{
+  content: url(image/nav12.png);
+  width: 120px;
+}
+.nav7{
+  display: inline;
+  margin-left: -4px;
+}
+.nav7:hover{
+  content: url(image/nav13.png);
+  width: 120px;
+}
+.btwn {
+  border-left: 30px solid black;
+  border-right: 30px solid black;
+  border-bottom: 30px solid black;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btwn1 {
+  background-color: lightgray;
+  display: inline-block;
+  margin-left: 15px;
+}
+.btwn1:hover{
+  background-color: gray;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.btwn3{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.btwn2 {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: blue;
+}
+.btwn2:hover {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: royalblue;
+}
+.brq{
+  display: inline-block;
+  margin-left: 15px;
+  background-color: green;
+}
+.brq:hover {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: lime;
+}
+.btwnp {
+  display: inline-block;
+  margin-left: 15px;
+  background-color:  rgb(251, 136, 198);
+}
+.btwnp:hover {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: rgba(223, 5, 139, 0.979);
+}
+.btwnb {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: rgb(51, 48, 48);
+}
+.btwnb:hover {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: rgb(26, 25, 25);
+}
+#fix1{
+  background-color: #26b632;
+  width: 60px;
+  height: 70px;
+  position: fixed;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#fix1:hover{
+  background-color: green;
+}
+.user{
+  width: 40%;
+  margin-top: 10px;
+}
+#fix2{
+  background-color: rgb(32, 29, 29);
+  width: 60px;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  margin-top: 320px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#fix2:hover{
+   background-color: deepskyblue;
+}
+.search{
+  margin-top: 5px;
+  width: 40%;
+}
+#log{
+  color: white;
+}
+.feature{
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 210px;
+}
+.slider{
+  text-align: left;
+}
+.slider1{
+  display: inline;
+  margin-left: -10px;
+}
+.slider2{
+  display: inline;
+  margin-left: -10px;
+}
+.slider3{
+  display: inline;
+  margin-left: 0px;
+}
+.imgsize{
+  width: 239px;
+}
+.explr{
+  margin-top: 50px;
+  text-align: right;
+  margin-right: 200px;
+}
+.img1{
+  display: inline;
+}
+.view{
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 200px;
+}
+.footer{
+  background-color: rgb(22, 21, 21);
+}
+.footer1{
+  width: 230px;
+  display: inline-block;
+}
+.footer2{
+  width: 300px;
+  display: inline-block;
+  border-right: 3px solid black;
+}
+.footer3{
+  margin-left: 20px;
+  width: 150px;
+  display: inline-block;
+}
+.liii{
+  color: white;
+}
+.lii{
+  color: gray;
+}
+.lii:hover{
+  color: white;
+}
+.ppp{
+  color: gray;
+  font-size: 11px;
+}
+a{
+  color: gray;
+  font-size: 11px;
+}
+.link{
+  list-style: none;
+}
+.lastimg:hover{
+  opacity: 0.5;
+}
+
+.gray>p{
+  text-align: justify;
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(65, 65, 65);
+}
+.gray>h2{
+  text-align: justify;
+  margin-left: 10px;
+  color: black;
+}
+.blue>p{
+  text-align: justify;
+  color: skyblue;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.blue>h2{
+  text-align: justify;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+.green>h2{
+  text-align: justify;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.pink>h2{
+  text-align: justify;
+  color: whitesmoke;
+  margin-left: 10px;
+}
+.black>h2{
+  text-align: justify;
+  color: whitesmoke;
+  margin-left: 10px;
+}
